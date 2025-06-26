@@ -8,8 +8,6 @@ The codebase is written in Python and organized into modular components includin
 We use the NEU Surface Defect Dataset, available for download here:  
 🔗 [NEU Surface Defect Dataset on Kaggle](https://www.kaggle.com/datasets/zy12345/neudet)
 
-After downloading, place the dataset inside a folder named `NEU-DET` within the project directory.
-
 ### How to Run
 
 1. Install required dependencies:
@@ -29,7 +27,7 @@ The model is built on a **Swin Transformer Backbone** that extracts rich feature
 - **Classification Head:** Classifies images into defect categories.
 - **Detection Head:** Detects and localizes defects with bounding boxes and objectness scores.
 
-The model supports three modes — contrastive learning, classification, and detection — allowing flexible training strategies.
+The model supports three modes contrastive learning, classification, and detection-allowing flexible training strategies.
 
 ### Training Pipeline
 
