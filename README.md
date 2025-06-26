@@ -23,7 +23,7 @@ We use the NEU Surface Defect Dataset, available for download here:
 
 The model is built on a **Swin Transformer Backbone** that extracts rich features from steel surface images. It includes three heads:
 
-- **Contrastive Projection Head:** Learns robust feature embeddings using supervised contrastive loss.
+- **Contrastive Projection Head:** Learns feature embeddings using supervised contrastive loss.
 - **Classification Head:** Classifies images into defect categories.
 - **Detection Head:** Detects and localizes defects with bounding boxes and objectness scores.
 
